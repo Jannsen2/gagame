@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" >
+	
+    <title>Hang Ionic man</title>
+		
+	
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter|Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="bootstrap.min.css" media="screen">
+	
+    <script type="text/javascript" src="script.js"></script>
+    <script>window.onload = draw;</script>
+</head>
+
+<body>
+ <embed src="Hang Man's Rope Sound Effect.mp3" autostart="true" loop="true" hidden="true">  
+    <div id="introPage">
+        <div id="introText">
+		
+            <center><strong><p><h3> Welcome to <br>Hang Ionic man! </h3></p></strong></center>
+            <p></p>
+<div class="container" style="padding-top: 20px;">
+			<div class="center-block" style="max-width: 720px">
+				<a href="game.html" class="btn btn-info btn-block">LET'S PLAY</a>
+				<a href="Instruction.html" class="btn btn-info btn-block">INSTRUCTION</a>
+				<a href="About.html" class="btn btn-info btn-block">ABOUT</a>
+			</div>
+
+            </div>
+        </div>
+		<br></br><br>
+        <canvas id="homeHangman" width="300px" height="300px"></canvas>
+    </div>
+    
+    
+    <div id="gamePage">
+        <p id="categoryName"></p>
+ 
+        <canvas id="hangman" width="300px" height="300px"></canvas>
+        <div id="results"></div>
+	</div>
+       
+    
+</body>
+</html>
